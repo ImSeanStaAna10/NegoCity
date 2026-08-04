@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
   <Project Path="../NegoCity.API/NegoCity.API.csproj" />
   <Project Path="../NegoCity.Application/NegoCity.Application.csproj" />
   <Project Path="../NegoCity.Domain/NegoCity.Domain.csproj" />
