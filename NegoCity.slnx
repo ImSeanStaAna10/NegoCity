@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="../NegoCity.API/NegoCity.API.csproj" />
+  <Project Path="../NegoCity.Application/NegoCity.Application.csproj" />
+  <Project Path="../NegoCity.Domain/NegoCity.Domain.csproj" />
+  <Project Path="../NegoCity.Infrastructure/NegoCity.Infrastructure.csproj" />
+  <Project Path="../NegoCity.Tests/NegoCity.Tests.csproj" />
+</Solution>
