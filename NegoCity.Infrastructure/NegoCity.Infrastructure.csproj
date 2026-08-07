@@ -24,7 +24,6 @@
     <Folder Include="Authentication\" />
     <Folder Include="Storage\" />
     <Folder Include="Repositories\" />
-    <Folder Include="Persistence\Configurations\" />
   </ItemGroup>
 
 </Project>
