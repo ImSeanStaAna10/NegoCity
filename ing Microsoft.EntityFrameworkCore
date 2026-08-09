@@ -1,0 +1,80 @@
+[33mcommit f39d78d489d860b56fdaf3611eb620ea77fbd5c9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Merge: 9a63817 f02d5ab
+Author: Sean Chandrick Sta Ana <seanstaana0510@gmail.com>
+Date:   Sat Aug 8 05:56:58 2026 +0800
+
+    Merge pull request #5 from ImSeanStaAna10/feature/application-layer
+    
+    feat(application): add application service layer
+
+[33mcommit f02d5ab6efa4234d4c7499c8bb2ee349bc1e89d7[m[33m ([m[1;31morigin/feature/application-layer[m[33m, [m[1;32mfeature/application-layer[m[33m)[m
+Author: ImSeanStaAna10 <seanstaana0510@gmail.com>
+Date:   Sat Aug 8 05:54:11 2026 +0800
+
+    feat(application): add application service layer
+
+[33mcommit 9a63817e5c56874f9dd82a1e40117e40ca4403a1[m
+Merge: e3a787f fde7b89
+Author: Sean Chandrick Sta Ana <seanstaana0510@gmail.com>
+Date:   Fri Aug 7 07:29:02 2026 +0800
+
+    Merge pull request #4 from ImSeanStaAna10/feature/database-schema
+    
+    feat: add EF Core database schema
+
+[33mcommit fde7b893374e3a9d09087bbf438296312e35041c[m[33m ([m[1;31morigin/feature/database-schema[m[33m, [m[1;32mfeature/database-schema[m[33m)[m
+Author: ImSeanStaAna10 <seanstaana0510@gmail.com>
+Date:   Fri Aug 7 07:22:01 2026 +0800
+
+    feat: add EF Core database schema
+
+[33mcommit e3a787f22f63637b3a565bb5b9544af899ae9ec1[m
+Merge: 21c393d fcfb554
+Author: Sean Chandrick Sta Ana <seanstaana0510@gmail.com>
+Date:   Wed Aug 5 18:05:19 2026 +0800
+
+    Merge pull request #3 from ImSeanStaAna10/feature/database-migration
+    
+    chore: establish database migration foundation
+
+[33mcommit fcfb5545d34c52343e2765a5d93da10e6f21b9eb[m[33m ([m[1;31morigin/feature/database-migration[m[33m, [m[1;32mfeature/database-migration[m[33m)[m
+Author: ImSeanStaAna10 <seanstaana0510@gmail.com>
+Date:   Wed Aug 5 18:03:32 2026 +0800
+
+    chore: establish database migration foundation
+
+[33mcommit 21c393d34ce82d712c8cb728958815a0337192d0[m
+Merge: d651c15 91367db
+Author: Sean Chandrick Sta Ana <seanstaana0510@gmail.com>
+Date:   Tue Aug 4 20:32:20 2026 +0800
+
+    Merge pull request #2 from ImSeanStaAna10/feature/database-foundation
+    
+    feat: configure database foundation
+
+[33mcommit 91367db7737c4a57df8d3f2be8d2e4f2fd9032f0[m[33m ([m[1;31morigin/feature/database-foundation[m[33m, [m[1;32mfeature/database-foundation[m[33m)[m
+Author: ImSeanStaAna10 <seanstaana0510@gmail.com>
+Date:   Tue Aug 4 20:24:39 2026 +0800
+
+    feat: configure database foundation
+
+[33mcommit d651c152b411b6d5e477695e868438c9ca8536a6[m
+Merge: 9627d6a 73e0732
+Author: Sean Chandrick Sta Ana <seanstaana0510@gmail.com>
+Date:   Tue Aug 4 18:10:26 2026 +0800
+
+    Merge pull request #1 from ImSeanStaAna10/feature/project-foundation
+    
+    chore: set up project foundation
+
+[33mcommit 73e0732bd94402ec00e790e64fb0e1137b817e21[m[33m ([m[1;31morigin/feature/project-foundation[m[33m, [m[1;32mfeature/project-foundation[m[33m)[m
+Author: ImSeanStaAna10 <seanstaana0510@gmail.com>
+Date:   Tue Aug 4 18:00:09 2026 +0800
+
+    chore: set up project foundation
+
+[33mcommit 9627d6afe7e0887b7599ad700c65c9440194d786[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Sean Chandrick Sta Ana <seanstaana0510@gmail.com>
+Date:   Tue Aug 4 17:44:31 2026 +0800
+
+    Initial commit
