@@ -1,10 +1,11 @@
-﻿using NegoCity.Domain.Entities;
+﻿using NegoCity.Application.DTOs.Business;
+using NegoCity.Domain.Entities;
 
 namespace NegoCity.Application.Contracts.Services
 {
     public interface IBusinessService
     {
-        Task<Business?> GetByIdAsync(Guid id);
-        Task<Business> CreateAsync(Business business);
+        Task<BusinessResponse?> GetByIdAsync(Guid id);
+        Task<BusinessResponse> CreateAsync(CreateBusinessRequest request);
     }
 }
