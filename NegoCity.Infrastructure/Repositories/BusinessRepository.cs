@@ -27,6 +27,12 @@ namespace NegoCity.Infrastructure.Repositories
             await _context.Businesses.AddAsync(business);
         }
 
+        public async Task<bool> ExistsByNameAsync(string name)
+        {
+            return await _context.Businesses
+                .AnyAsync(x => x.Name == name);
+        }
+
         #endregion
     }
 }

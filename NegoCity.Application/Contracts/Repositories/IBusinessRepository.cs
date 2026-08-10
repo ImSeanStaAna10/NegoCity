@@ -6,5 +6,7 @@ namespace NegoCity.Application.Contracts.Repositories
     {
         Task<Business?> GetByIdAsync(Guid id);
         Task AddAsync(Business business);
+
+        Task<bool> ExistsByNameAsync(string name);
     }
 }
