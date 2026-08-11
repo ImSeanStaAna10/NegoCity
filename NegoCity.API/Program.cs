@@ -1,4 +1,4 @@
-using NegoCity.API.Extensions;
+using NegoCity.Application.Extensions;
 using NegoCity.Infrastructure.Extensions;
 
 namespace NegoCity.API
@@ -10,12 +10,15 @@ namespace NegoCity.API
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddApplicationServices();
-            
 
-           
-            builder.Services.AddInfrastructure(builder.Configuration);
-            
+            builder.Services.AddInfrastructure(
+                builder.Configuration);
+
+            builder.Services.AddControllers();
+
             var app = builder.Build();
+
+            app.MapControllers();
 
             app.Run();
         }
