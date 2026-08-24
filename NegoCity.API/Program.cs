@@ -1,5 +1,6 @@
 using NegoCity.Application.Extensions;
 using NegoCity.Infrastructure.Extensions;
+using NegoCity.API.Middleware;
 
 namespace NegoCity.API
 {
@@ -17,6 +18,11 @@ namespace NegoCity.API
             builder.Services.AddControllers();
 
             var app = builder.Build();
+
+
+
+            //exceptionHandlerMiddleware
+            app.UseMiddleware<ExceptionHandlingMiddleware>();
 
             app.MapControllers();
 

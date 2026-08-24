@@ -1,6 +1,7 @@
 ﻿using NegoCity.Application.Contracts.Repositories;
 using NegoCity.Application.Contracts.Services;
 using NegoCity.Application.DTOs.Business;
+using NegoCity.Application.Exceptions;
 using NegoCity.Application.Mapping;
 
 
@@ -39,7 +40,7 @@ namespace NegoCity.Application.Services
 
             if (exist)
             {
-                throw new InvalidOperationException($"Business with name '{request.Name}' already exists.");
+                throw new BusinessAlreadyExistsException($"Business with name '{request.Name}' already Exists");
             }
              
             var business = BusinessMapping.ToEntity(request);
